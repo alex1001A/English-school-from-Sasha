@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Lato:wght@700&display=swap');
+
+// font-family: 'Inter', sans-serif; 500/700
+// font-family: 'Lato', sans-serif; 700
+
+:root {
+    
+    // Font-family
+    --Inter-ff: 'Inter', sans-serif;
+    --Lato-ff: 'Lato', sans-serif;
+
+    // Text
+    --page-title-font: 700 90px/135px var(--Inter-ff);
+    --yb-block-title-font: 700 45px/67.5px var(--Inter-ff);
+    --yb-block-subtitle-font: 700 25px/37.5px var(--Inter-ff);
+    --yb-block-text-font: 700 35px/52.5px var(--Inter-ff);
+    --yb-block-pricing-font: 700 50px/75px var(--Inter-ff);
+    --var-section-list-font: 700 30px/45px var(--Inter-ff);
+    --var-section-point-font: 700 28px/42px var(--Inter-ff);
+    --pre-footer-suptext-foont: 700 25px/37.5px var(--Lato-ff);
+    --pre-footer-subtext-font: 700 35px/52.5px var(--Lato-ff);
+    --footer-title-font: 700 100px/150px var(--Lato-ff);
+    --footer-contact-font: 700 4px/60px var(--Lato-ff);
+
+    // Components
+    --btn-header-font: 700 20px/30px var(--Inter-ff);
+    --btn-pre-footer-font: 700 35px/52.5px var(--Inter-ff);
+
+}
+
+// Text classes
+.page-title {
+    font: var(--page-title-font);
+    letter-spacing: -2px;
+    color: var(--color-0B0D42);
+}
+
+// Components classes
+.header__btn {
+    font: var(--btn-header-font);
+}
+
+

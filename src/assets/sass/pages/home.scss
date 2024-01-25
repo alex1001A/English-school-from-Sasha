@@ -1,0 +1,126 @@
+// Hero section
+
+.hero {
+  padding-bottom: 190px;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    max-width: 967px;
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 482px;
+  }
+}
+
+// Hero section END
+
+// Two-towers section
+
+.two-towers {
+  padding-bottom: 60px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    max-width: 714px;
+    display: flex;
+    flex-direction: column;
+    padding: 58px 120px 105px 65px;
+    border-radius: 80px;
+    background-color: var(--color-0D99FF);
+    color: var(--color-FFFFFF);
+
+    &:first-child {
+        background-color: var(--color-0D99FF);
+    }
+
+    &:last-child {
+        background-color: var(--color-FFCD29);
+    }
+  }
+
+  &__title-block {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &--title {
+      color: var(--color-FFFFFF);
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 67.5px;
+      letter-spacing: -0.855px;
+    }
+
+    &--subtitle {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 45px;
+      letter-spacing: -0.33px;
+    }
+
+    &--emoji {
+      position: absolute;
+      right: -40px;
+      top: 0;
+    }
+  }
+
+  &__list-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52.5px;
+    letter-spacing: -0.665px;
+    margin-bottom: 200px;
+
+    &--title {
+    }
+
+    .two-towers__list {
+      display: flex;
+      flex-direction: column;
+      list-style: disc;
+      margin-bottom: 80px;
+      margin-left: 50px;
+
+      &--item {
+      }
+    }
+  }
+
+  &__footer {
+    align-self: center;
+
+    &--new-price {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 75px;
+      letter-spacing: -0.95px;
+    }
+
+    &--old-price {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 45px;
+      letter-spacing: -0.57px;
+      text-decoration: line-through;
+    }
+  }
+}
+
+// Two-towers section

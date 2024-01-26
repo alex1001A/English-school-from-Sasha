@@ -43,11 +43,11 @@
     color: var(--color-FFFFFF);
 
     &:first-child {
-        background-color: var(--color-0D99FF);
+      background-color: var(--color-0D99FF);
     }
 
     &:last-child {
-        background-color: var(--color-FFCD29);
+      background-color: var(--color-FFCD29);
     }
   }
 
@@ -88,18 +88,12 @@
     letter-spacing: -0.665px;
     margin-bottom: 200px;
 
-    &--title {
-    }
-
     .two-towers__list {
       display: flex;
       flex-direction: column;
       list-style: disc;
       margin-bottom: 80px;
       margin-left: 50px;
-
-      &--item {
-      }
     }
   }
 
@@ -123,4 +117,40 @@
   }
 }
 
-// Two-towers section
+// Two-towers section END
+
+// Variants section
+
+.variants {
+  padding-bottom: 160px;
+
+  &__title {
+    text-align: center;
+    font: var(--var-title-font);
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: 503px 506px 387px;
+    column-gap: 25px;
+    row-gap: 12px;
+    font: var(--var-text-font);
+    list-style: disc;
+
+    &--item {
+    }
+  }
+}
+
+.variants__container {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  background-color: var(--color-F9F9F9);
+  border-radius: 50px;
+  padding: 10px 0 66px 85px;
+}
+
+
+
+// Variants section END

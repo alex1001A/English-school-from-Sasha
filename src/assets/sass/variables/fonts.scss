@@ -17,7 +17,7 @@
   --var-title-font: 700 30px/45px var(--Inter-ff);
   --var-text-font: 700 28px/42px var(--Inter-ff);
   --pre-footer-suptext-font: 700 25px/37.5px var(--Lato-ff);
-  --pre-footer-subtext-font: 700 35px/52.5px var(--Lato-ff);
+  --pre-footer-subtext-font: 700 30px/45px var(--Lato-ff);
   --footer-title-font: 700 100px/150px var(--Inter-ff);
   --footer-text-font: 700 30px/45px var(--Inter-ff);
   --footer-contact-title-font: 700 40px/60px var(--Inter-ff);
@@ -35,6 +35,14 @@
   font: var(--page-title-font);
   letter-spacing: -2px;
   color: var(--color-0B0D42);
+}
+
+.pre-footer-accent-1 {
+  color: var(--color-AD0000);
+}
+
+.pre-footer-accent-2 {
+  color: var(--color-F10000);
 }
 
 .footer__title {

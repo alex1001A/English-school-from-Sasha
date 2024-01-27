@@ -136,9 +136,6 @@
     row-gap: 12px;
     font: var(--var-text-font);
     list-style: disc;
-
-    &--item {
-    }
   }
 }
 
@@ -146,11 +143,66 @@
   display: flex;
   flex-direction: column;
   gap: 47px;
-  background-color: var(--color-F9F9F9);
+  background-color: var(--color-D9D9D9);
   border-radius: 50px;
   padding: 10px 0 66px 85px;
 }
 
-
-
 // Variants section END
+
+// Pre-footer section
+
+.pre-footer {
+  padding-bottom: 162px;
+
+  &__streaming-img {
+    position: absolute;
+    right: -35px;
+    top: 0;
+  }
+}
+
+.pre-footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pre-footer__button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+
+  .prefooter__btn--yellow {
+    position: relative;
+  }
+}
+
+.pre-footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  justify-content: center;
+
+  .pre-footer__upper-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .pre-footer__suptext {
+    font: var(--pre-footer-suptext-font);
+  }
+
+  .pre-footer__column {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .pre-footer__subtext {
+    font: var(--pre-footer-subtext-font);
+  }
+}
+
+// Pre-footer section END

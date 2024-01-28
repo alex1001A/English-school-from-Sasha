@@ -35,6 +35,21 @@
   font: var(--page-title-font);
   letter-spacing: -2px;
   color: var(--color-0B0D42);
+
+  @media (max-width: 1600px) {
+    font-size: 65px;
+    line-height: 80px;
+  }
+
+  @media (max-width: $media-xxl) {
+    font-size: 45px;
+    line-height: 80px;
+  }
+
+  @media (max-width: $media-md) {
+    font-size: 30px;
+    line-height: 55px;
+  }
 }
 
 .pre-footer-accent-1 {
@@ -48,6 +63,10 @@
 .footer__title {
   font: var(--footer-title-font);
   letter-spacing: -1.1px;
+
+  @media (max-width: 1600px) {
+    display: none;
+  }
 }
 
 .footer__text {

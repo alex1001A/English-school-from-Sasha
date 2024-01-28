@@ -1,9 +1,15 @@
 .header__btn {
-    padding: 30px;
+    padding: 30px 38px;
     background-color: var(--color-0D99FF);
     border-radius: 32px;
     width: 324px;
     color: var(--color-FFFFFF);
+
+    @media (max-width: 1600px) {
+        font-size: 15px;
+        padding: 20px 25px;
+        width: 250px;
+    }
 }
 
 .prefooter__btn {
@@ -27,4 +33,12 @@
     border-radius: 45px;
     width: 474px;
     color: var(--color-FFFFFF);
+}
+
+button {
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(0.9);
+    }
 }

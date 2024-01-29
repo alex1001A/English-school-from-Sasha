@@ -28,6 +28,7 @@
   --btn-pre-footer-font: 700 35px/52.5px var(--Inter-ff);
   --btn-yellow-footer-font: 700 35px/52.5px var(--Inter-ff);
   --btn-white-footer-font: 700 25px/37.5px var(--Inter-ff);
+  --popup-text-font: 700 45px/67.5px var(--Inter-ff);
 }
 
 // Text classes
@@ -97,4 +98,10 @@
 .footer__btn--white {
   font: var(--btn-white-footer-font);
   letter-spacing: 0, 475px;
+}
+
+.popup-text {
+  font: var(--popup-text-font);
+  letter-spacing: -0.855px;
+  color: var(--color-FFFFFF);
 }

@@ -140,7 +140,8 @@
             <img class="pre-footer__gift-img" src="@@webRoot/img/home/gift-img.png" alt="img" width="70">
           </div>
           <div class="pre-footer__column">
-            <p class="pre-footer__subtext">місячна підписка  Apple TV або <span class="pre-footer-accent-1">Netflix</span></p>
+            <p class="pre-footer__subtext">місячна підписка Apple TV або <span
+                class="pre-footer-accent-1">Netflix</span></p>
             <p class="pre-footer__subtext">місячна підписка <span class="pre-footer-accent-2">Youtube</span>Premium</p>
           </div>
         </div>
@@ -181,13 +182,47 @@
       </div>
     </footer>
 
+
+
   </div>
 
+  <div class="popup">
+    <button class="popup__cross">
+      <img src="@@webRoot/img/home/cross-icon.svg" alt="cross-icon" width="50px">
+    </button>
+    <div class="popup__content">
+      <h3 class="popup__content--title popup-text">залишай контакт, щоб ми зв’язалися з тобою</h3>
+      <form class="popup__form">
+        <input class="popup__form--text" type="text" placeholder="пошту, мобільний, ТГ...">
+        <button class="popup__form--btn">
+          <img src="@@webRoot/img/home/popup-btn-icon.svg" alt="icon" width="40">
+        </button>
+        <img src="@@webRoot/img/home/liberty-state.png" alt="image" class="popup__img" width="330">
+      </form>
+    </div>
+  </div>
   <!--Обовязково додавати потрібно для JS -->
   <script>
     var exports = {};
   </script>
-  <script src="@@webRoot/js/index.js"></script>
+  <script>
+
+    const popup = document.querySelector('.popup')
+    const popupBtn = document.querySelector('.footer__btn--white')
+    const page = document.querySelector('.wrapper')
+    const crossClose = document.querySelector('.popup__cross')
+
+    popupBtn.addEventListener('click', () => {
+      popup.classList.add('is-active')
+      page.classList.add('opacity')
+    })
+
+    crossClose.addEventListener('click', () => {
+      popup.classList.remove('is-active')
+      page.classList.remove('opacity')
+    })
+
+  </script>
 </body>
 
 </html>
